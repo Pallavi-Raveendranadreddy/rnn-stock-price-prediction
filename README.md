@@ -19,10 +19,15 @@ To develop a Recurrent Neural Network model for stock price prediction.
 
 ## DESIGN STEPS
 1.Read the csv file and create the Data frame using pandas.
+
 2.Select the " Open " column for prediction. Or select any column of your interest and scale the values using MinMaxScaler.
+
 3.Create two lists for X_train and y_train. And append the collection of 60 readings in X_train, for which the 61st reading will be the first output in y_train.
+
 4.Create a model with the desired number of neurons and one output neuron.
+
 5.Follow the same steps to create the Test data. But make sure you combine the training data with the test data.
+
 6.Make Predictions and plot the graph with the Actual and Predicted values.
 
 
